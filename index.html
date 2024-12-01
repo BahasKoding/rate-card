@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="src/output.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-zinc-950">
+    <div class="max-w-[1400px] mx-auto">
+        <!-- Update Hero Section -->
+        <div class="relative min-h-[40vh] flex items-center justify-center bg-zinc-950 px-4 py-12 overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070')] opacity-5 bg-cover bg-center"></div>
+            
+            <div class="relative z-10 text-center max-w-2xl mx-auto">
+                <div class="mb-6 animate-scale-in">
+                    <img
+                        src="https://raw.githubusercontent.com/BahasKoding/portfolio-rai/main/src/assets/img/rai.jpg"
+                        alt="Rai"
+                        class="w-28 h-28 md:w-32 md:h-32 rounded-full border-2 border-zinc-800 mx-auto shadow-xl object-cover"
+                    />
+                </div>
+                
+                <h1 class="text-2xl md:text-4xl font-bold text-white mb-2 animate-slide-up">
+                    Rai Rakhmat Syarifudin Supardi
+                </h1>
+                
+                <div class="flex flex-col items-center gap-1 mb-4 animate-slide-up">
+                    <div class="inline-flex items-center gap-2 text-zinc-200 font-medium">
+                        <span>Content Creator</span>
+                        <span class="w-1.5 h-1.5 rounded-full bg-zinc-700"></span>
+                        <span>Web Developer</span>
+                        <span class="w-1.5 h-1.5 rounded-full bg-zinc-700"></span>
+                        <span>Student</span>
+                    </div>
+                    <p class="text-sm text-zinc-400">Turning complex concepts into engaging content</p>
+                </div>
+
+                <div class="text-zinc-500 text-sm mb-6 animate-slide-up">
+                    Bogor, Indonesia
+                </div>
+                
+                <div class="flex justify-center gap-6 text-zinc-400 animate-slide-up">
+                    <a href="https://instagram.com/bahaskoding" 
+                    class="social-icon hover:text-[#E4405F]"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <i data-lucide="instagram" class="w-5 h-5"></i>
+                    </a>
+                    <a href="https://tiktok.com/@bahaskoding" 
+                    class="social-icon hover:text-white group"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <!-- Custom TikTok SVG Icon -->
+                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:business.rkhmt@gmail.com" 
+                    class="social-icon hover:text-white">
+                        <i data-lucide="mail" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="max-w-4xl mx-auto px-4 py-12 animate-fade-in">
+            <!-- Instagram Stats Label -->
+            <div class="flex items-center gap-2 mb-6">
+                <i data-lucide="instagram" class="w-5 h-5 text-zinc-400"></i>
+                <h2 class="text-lg font-semibold text-white">Instagram Statistics</h2>
+                <span class="text-sm text-zinc-500">@bahaskoding</span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+                <!-- Followers Stats Card -->
+                <div class="stats-card p-4 bg-zinc-900/50 border border-zinc-800/30 hover:bg-zinc-800/30 transition-all duration-300 rounded-xl group hover:shadow-lg hover:shadow-zinc-900/20">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2 bg-zinc-800/50 rounded-lg group-hover:bg-zinc-800 transition-colors">
+                            <i data-lucide="users" class="w-5 h-5 text-zinc-400 group-hover:text-zinc-200"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-medium text-zinc-300">Followers</p>
+                            <p class="text-lg font-semibold text-white">6,040</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Engagement Stats Card -->
+                <div class="stats-card p-4 bg-zinc-900/50 border border-zinc-800/30 hover:bg-zinc-800/30 transition-all duration-300 rounded-xl group hover:shadow-lg hover:shadow-zinc-900/20">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2 bg-zinc-800/50 rounded-lg group-hover:bg-zinc-800 transition-colors">
+                            <i data-lucide="target" class="w-5 h-5 text-zinc-400 group-hover:text-zinc-200"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-medium text-zinc-300">Engagement</p>
+                            <p class="text-lg font-semibold text-white">6.53%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top Cities Stats Card -->
+                <div class="stats-card p-4 bg-zinc-900/50 border border-zinc-800/30 hover:bg-zinc-800/30 transition-all duration-300 rounded-xl group hover:shadow-lg hover:shadow-zinc-900/20">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2 bg-zinc-800/50 rounded-lg group-hover:bg-zinc-800 transition-colors">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-zinc-400 group-hover:text-zinc-200"></i>
+                        </div>
+                        <div class="min-w-[100px]"> <!-- Added min-width untuk konsistensi -->
+                            <p class="text-sm font-medium text-zinc-300">Top City</p> <!-- Changed to singular -->
+                            <p class="text-lg font-semibold text-white">Jakarta</p> <!-- Removed Bogor -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Monthly Reach Stats Card -->
+                <div class="stats-card p-4 bg-zinc-900/50 border border-zinc-800/30 hover:bg-zinc-800/30 transition-all duration-300 rounded-xl group hover:shadow-lg hover:shadow-zinc-900/20">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2 bg-zinc-800/50 rounded-lg group-hover:bg-zinc-800 transition-colors">
+                            <i data-lucide="trending-up" class="w-5 h-5 text-zinc-400 group-hover:text-zinc-200"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-medium text-zinc-300">Monthly Reach</p>
+                            <p class="text-lg font-semibold text-white">40K</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Audience Demographics -->
+        <div class="mb-12 animate-slide-up">
+            <div class="p-6 md:p-8 bg-zinc-900/50 border-zinc-800/30 rounded-xl">
+                <div class="flex items-center justify-between mb-8">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="users" class="w-5 h-5 text-zinc-400"></i>
+                        <h2 class="text-xl font-bold text-white">Audience Demographics</h2>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm text-zinc-500">
+                        <i data-lucide="instagram" class="w-4 h-4"></i>
+                        <span>Instagram Insights</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-8">
+                    <!-- Gender Distribution remains the same -->
+                    <div>
+                        <h3 class="text-sm font-medium text-zinc-400 mb-4">Gender Distribution</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-zinc-300">Male</span>
+                                <span class="text-zinc-100 font-medium">88.6%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-zinc-300">Female</span>
+                                <span class="text-zinc-100 font-medium">11.3%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Age Range remains the same -->
+                    <div>
+                        <h3 class="text-sm font-medium text-zinc-400 mb-4">Age Range</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-zinc-300">18-24 years</span>
+                                <span class="text-zinc-100 font-medium">51.2%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-zinc-300">25-34 years</span>
+                                <span class="text-zinc-100 font-medium">32.4%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Updated Top Locations -->
+                    <div>
+                        <h3 class="text-sm font-medium text-zinc-400 mb-4">Top Locations</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-zinc-300">Jakarta</span>
+                                <span class="text-zinc-100 font-medium">19.6%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-zinc-300">Bekasi</span>
+                                <span class="text-zinc-100 font-medium">5.0%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-zinc-300">Surabaya</span>
+                                <span class="text-zinc-100 font-medium">3.6%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-zinc-300">Bandung</span>
+                                <span class="text-zinc-100 font-medium">3.0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Pricing Section -->
+        <div class="animate-slide-up">
+            <div class="p-6 md:p-8 bg-zinc-900/50 border-zinc-800/30 rounded-xl">
+                <!-- Updated Header with Instagram indicator -->
+                <div class="flex items-center justify-between mb-8">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="file-check" class="w-5 h-5 text-zinc-400"></i>
+                        <h2 class="text-xl font-bold text-white">Content Pricing</h2>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm text-zinc-500">
+                        <i data-lucide="instagram" class="w-4 h-4"></i>
+                        <span>Instagram Content Only</span>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-x-16 gap-y-8">
+                    <!-- Feed Posts -->
+                    <div class="space-y-8">
+                        <div class="pricing-section">
+                            <h3 class="text-sm font-medium text-zinc-400 mb-4">Feed Posts</h3>
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-center pricing-item">
+                                    <span class="text-zinc-300">Single Photo</span>
+                                    <span class="text-zinc-100 font-medium">Rp 250.000</span>
+                                </div>
+                                <div class="flex justify-between items-center pricing-item">
+                                    <span class="text-zinc-300">Carousel (3 photos)</span>
+                                    <span class="text-zinc-100 font-medium">Rp 300.000</span>
+                                </div>
+                                <div class="flex justify-between items-center pricing-item">
+                                    <span class="text-zinc-300">Video (1 minute)</span>
+                                    <span class="text-zinc-100 font-medium">Rp 350.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="border-zinc-800/50 md:hidden">
+
+                        <!-- Stories -->
+                        <div class="pricing-section">
+                            <h3 class="text-sm font-medium text-zinc-400 mb-4">Stories</h3>
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-center pricing-item">
+                                    <span class="text-zinc-300">Single Photo Story</span>
+                                    <span class="text-zinc-100 font-medium">Rp 200.000</span>
+                                </div>
+                                <div class="flex justify-between items-center pricing-item">
+                                    <span class="text-zinc-300">Video Story</span>
+                                    <span class="text-zinc-100 font-medium">Rp 250.000</span>
+                                </div>
+                                <div class="flex justify-between items-center pricing-item">
+                                    <span class="text-zinc-300">3 Stories Package</span>
+                                    <span class="text-zinc-100 font-medium">Rp 500.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-8">
+                        <!-- Video Reels -->
+                        <div class="pricing-section">
+                            <h3 class="text-sm font-medium text-zinc-400 mb-4">Video Reels</h3>
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-center pricing-item">
+                                    <span class="text-zinc-300">1-3 Minutes</span>
+                                    <span class="text-zinc-100 font-medium">Rp 500.000</span>
+                                </div>
+                                <div class="flex justify-between items-center pricing-item">
+                                    <span class="text-zinc-300">3-5 Minutes</span>
+                                    <span class="text-zinc-100 font-medium">Rp 700.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="border-zinc-800/50 md:hidden">
+
+                        <!-- Bundle Packages -->
+                        <div class="pricing-section">
+                            <h3 class="text-sm font-medium text-zinc-400 mb-4">Bundle Packages</h3>
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-center pricing-item">
+                                    <span class="text-zinc-300">1 Feed Post + 3 Stories</span>
+                                    <span class="text-zinc-100 font-medium">Rp 800.000</span>
+                                </div>
+                                <div class="flex justify-between items-center pricing-item">
+                                    <span class="text-zinc-300">1 Video Reels + 3 Stories</span>
+                                    <span class="text-zinc-100 font-medium">Rp 900.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terms & Conditions Section -->
+                <div class="mt-12 p-6 bg-zinc-800/20 rounded-lg animate-slide-up">
+                    <div class="max-w-4xl mx-auto">
+                        <h3 class="text-lg font-semibold text-white mb-6 flex items-center gap-2">
+                            <i data-lucide="scroll-text" class="w-5 h-5 text-zinc-400"></i>
+                            Terms & Conditions
+                        </h3>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <!-- Revision Policy -->
+                            <div class="flex items-start gap-3 p-4 bg-zinc-900/30 rounded-lg hover:bg-zinc-800/30 transition-colors">
+                                <div class="p-2 bg-zinc-800/50 rounded-lg">
+                                    <i data-lucide="repeat" class="w-5 h-5 text-zinc-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-zinc-200 mb-1">Revision Policy</h4>
+                                    <p class="text-sm text-zinc-400">Maximum 2 content revisions</p>
+                                </div>
+                            </div>
+
+                            <!-- Usage Rights -->
+                            <div class="flex items-start gap-3 p-4 bg-zinc-900/30 rounded-lg hover:bg-zinc-800/30 transition-colors">
+                                <div class="p-2 bg-zinc-800/50 rounded-lg">
+                                    <i data-lucide="copyright" class="w-5 h-5 text-zinc-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-zinc-200 mb-1">Usage Rights</h4>
+                                    <p class="text-sm text-zinc-400">Content usage rights for client's Instagram only</p>
+                                </div>
+                            </div>
+
+                            <!-- Delivery Time -->
+                            <div class="flex items-start gap-3 p-4 bg-zinc-900/30 rounded-lg hover:bg-zinc-800/30 transition-colors">
+                                <div class="p-2 bg-zinc-800/50 rounded-lg">
+                                    <i data-lucide="clock" class="w-5 h-5 text-zinc-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-zinc-200 mb-1">Delivery Time</h4>
+                                    <p class="text-sm text-zinc-400">3-5 working days delivery after brief</p>
+                                </div>
+                            </div>
+
+                            <!-- Payment Terms -->
+                            <div class="flex items-start gap-3 p-4 bg-zinc-900/30 rounded-lg hover:bg-zinc-800/30 transition-colors">
+                                <div class="p-2 bg-zinc-800/50 rounded-lg">
+                                    <i data-lucide="credit-card" class="w-5 h-5 text-zinc-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-zinc-200 mb-1">Payment Terms</h4>
+                                    <p class="text-sm text-zinc-400">50% upfront payment, 50% after publication</p>
+                                </div>
+                            </div>
+
+                            <!-- Discounts -->
+                            <div class="flex items-start gap-3 p-4 bg-zinc-900/30 rounded-lg hover:bg-zinc-800/30 transition-colors md:col-span-2 lg:col-span-1">
+                                <div class="p-2 bg-zinc-800/50 rounded-lg">
+                                    <i data-lucide="badge-percent" class="w-5 h-5 text-zinc-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-zinc-200 mb-1">Long-term Deals</h4>
+                                    <p class="text-sm text-zinc-400">Discounts available for long-term collaborations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Floating WhatsApp Button -->
+        <div class="fixed bottom-6 right-6 z-50">
+            <div class="relative group animate-fade-in">
+                <span class="absolute right-full mr-4 top-1/2 -translate-y-1/2 px-3 py-2 bg-white text-zinc-800 rounded-lg text-sm font-medium whitespace-nowrap shadow-lg pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity">
+                    Chat on WhatsApp
+                    <svg class="absolute -right-1 top-1/2 -translate-y-1/2 text-white h-2 w-2" fill="currentColor" viewBox="0 0 8 8">
+                        <path d="M0 0h8v8L0 4z" />
+                    </svg>
+                </span>
+                <a href="https://wa.me/6281290413175" 
+                class="flex items-center justify-center w-14 h-14 bg-[#25D366] hover:bg-[#20BD5A] rounded-full shadow-lg transition-all duration-300 hover:scale-110 active:scale-95">
+                    <svg class="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741 .981.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- Download Button -->
+        <div class="fixed bottom-6 left-6 z-50 animate-slide-up">
+            <a href="rate-card.pdf" 
+            onclick="previewPDF(event)"
+            class="inline-flex items-center gap-2 px-4 py-2 bg-zinc-900/80 border border-zinc-800 hover:bg-zinc-800 text-white rounded-lg transition-all duration-300 hover:scale-105 active:scale-95">
+                <i data-lucide="file-down" class="w-4 h-4"></i>
+                Download Rate Card
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    
+        // PDF Preview function
+        function previewPDF(event) {
+            event.preventDefault();
+            const pdfUrl = event.target.closest('a').href;
+            
+            // Open PDF in new window
+            window.open(pdfUrl, '_blank', 'width=800,height=600');
+        }
+    
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animation classes are handled by CSS
+            // Additional interactive features can be added here
+        });
+    </script>
+</body>
+</html>

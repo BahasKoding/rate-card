@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes scaleIn {
+    from { 
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to { 
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animate-scale-in {
+    animation: scaleIn 1s ease forwards;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.social-icon:active {
+    transform: scale(0.9);
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease forwards;
+}
+
+.animate-slide-up {
+    animation: slideUp 1s ease forwards;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-button:active {
+    transform: scale(0.95);
+}
+
+.pricing-item:hover {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.social-icon {
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+}
+
+/* Untuk layout desktop yang lebih baik */
+@media (min-width: 768px) {
+    .pricing-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem 4rem;
+    }
+    
+    .demographics-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem 3rem;
+    }
+}
